@@ -15,7 +15,7 @@ class FirstFragment : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
 
-    // This property is only valid between onCreateView and
+    // This property is only valid between onCreateView and 
     // onDestroyView.
     private val binding get() = _binding!!
 
@@ -39,6 +39,6 @@ class FirstFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding = null
+        _binding = nu
     }
 }
