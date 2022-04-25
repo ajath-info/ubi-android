@@ -19,9 +19,9 @@ class FirstFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
-    override fun onCreateView(
+    override fun onCre ateView(
             inflater: LayoutInflater, container: ViewGroup?,
-            savedInstanceState: Bundle?
+            savedInstanceState: Bundle ?
     ): View? {
 
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
@@ -32,7 +32,7 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonFirst.setOnClickListener {
+        binding.buttonFirst.setOnCl ickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
     }
