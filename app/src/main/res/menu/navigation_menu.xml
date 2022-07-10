@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_country"
+        android:icon="@drawable/ic_messageicon"
+        android:title="Country" />
+
+    <item
+        android:id="@+id/nav_msg"
+        android:icon="@drawable/ic_messageicon"
+        android:title="Messages" />
+
+    <item
+        android:id="@+id/nav_ads"
+        android:icon="@drawable/ic_ads"
+        android:title="My Ads" />
+
+    <item
+        android:id="@+id/nav_fav"
+        android:icon="@drawable/ic_fav"
+        android:title="Favourites" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account_left_menu"
+        android:title="Account" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_about"
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/nav_lead"
+        android:icon="@drawable/ic_leadmanager"
+        android:title="Lead Manager" />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_contactus"
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/nav_language"
+        android:icon="@drawable/ic_language"
+        android:title="Language" />
+
+    <item
+        android:id="@+id/nav_askseller"
+        android:icon="@drawable/askforseller"
+        android:title="Ask for Seller" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/help"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+</menu>

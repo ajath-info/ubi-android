@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RatingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_top_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:id="@+id/backlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                app:srcCompat="@drawable/ic_backwhite" />
+
+            <com.ubi.android.utils.ui.MontserratSemiBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/back"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <com.ubi.android.utils.ui.PoppinsMediumTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/rate_amp_review"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:numStars="5"
+        android:layout_gravity="center_horizontal"
+        android:stepSize="1"
+        android:theme="@style/RatingBar" />
+
+    <!--    <com.chaek.android.RatingBar-->
+    <!--        android:id="@+id/sellerrating"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:layout_marginStart="5dp"-->
+    <!--        android:layout_marginTop="25dp"-->
+    <!--        android:layout_marginEnd="5dp"-->
+    <!--        app:rating_flag="FIVE"-->
+    <!--        app:rating_star_color="#FDC90E"-->
+    <!--        app:rating_star_empty_color="#d3d3d3"-->
+    <!--        app:rating_star_height="35dp"-->
+    <!--        app:rating_star_width="35dp"-->
+    <!--        app:rating_start_count="2" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittextpostbg"
+        android:orientation="horizontal"
+        android:padding="13dp">
+
+        <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+            android:id="@+id/desctv"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/transparent"
+            android:gravity="top"
+            android:hint="@string/enter_your_review_here"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:maxLength="256"
+            android:maxLines="4"
+            android:scrollbars="vertical"
+            android:textColor="@color/black"
+            android:textColorHint="#707070"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/applybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.ubi.android.utils.ui.PoppinsRegularTextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/applybtn"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+    </LinearLayout>
+</LinearLayout>

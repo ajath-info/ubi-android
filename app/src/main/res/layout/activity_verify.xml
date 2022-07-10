@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.VerifyActivity">
+
+    <include layout="@layout/backlayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/verifyotpbanner" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <com.ubi.android.utils.ui.PoppinsBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/otp_verification"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <com.ubi.android.utils.ui.PoppinsRegularTextView
+            android:id="@+id/otptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Enter the OTP sent to\n9911099643"
+            android:textColor="#414141"
+            android:textSize="15dp" />
+
+        <com.chaos.view.PinView
+            android:id="@+id/firstPinView"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:cursorVisible="true"
+            android:inputType="number"
+            android:itemBackground="@drawable/edittextbtnbg"
+            android:textColor="@color/textcolor"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:cursorColor="@color/black"
+            app:cursorWidth="2dp"
+            app:hideLineWhenFilled="true"
+            app:itemCount="4"
+            app:itemHeight="50dp"
+            app:itemRadius="5dp"
+            app:itemSpacing="10dp"
+            app:itemWidth="50dp"
+            app:lineColor="#EEECEE"
+            app:lineWidth="0dp"
+            app:viewType="rectangle" />
+
+        <com.ubi.android.utils.ui.PoppinsSemiBoldTextView
+            android:id="@+id/resenttv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/forgot_password"
+            android:textColor="#16153F"
+            android:textSize="12dp" />
+
+        <com.ubi.android.utils.ui.PoppinsMediumButton
+            android:id="@+id/verifyotp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/logintabbtnbg"
+            android:text="@string/verify"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

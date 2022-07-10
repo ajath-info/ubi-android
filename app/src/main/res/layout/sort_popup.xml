@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:id="@+id/relvancetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/relevance"
+        android:textColor="#434343" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#33707070"></View>
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:id="@+id/ratingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/rating"
+        android:textColor="#434343" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#33707070"></View>
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:id="@+id/populartxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/popular"
+        android:textColor="#434343" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#33707070"></View>
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:id="@+id/friendsratingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/friends_rating"
+        android:textColor="#434343" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#33707070"></View>
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:id="@+id/highestpricetxt"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/highest_price"
+        android:textColor="#434343" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#33707070"></View>
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:id="@+id/lowestpricetxt"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/lowest_price"
+        android:textColor="#434343" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#33707070"></View>
+</LinearLayout>

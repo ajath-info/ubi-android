@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "484195240963",
+    "firebase_url": "https://ubi-app-a537b-default-rtdb.firebaseio.com",
+    "project_id": "ubi-app-a537b",
+    "storage_bucket": "ubi-app-a537b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484195240963:android:ce054a2ede58b36e419236",
+        "android_client_info": {
+          "package_name": "com.ubi.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484195240963-pp1f32bbn5opm62bsjhtf5lv6jtumvld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4qRibklDcUjpVSuJb7kXC_z8LXBXyFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484195240963-pp1f32bbn5opm62bsjhtf5lv6jtumvld.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "484195240963-01133dono1a4ibc9d7rkkihk61cm5m8t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.ubi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

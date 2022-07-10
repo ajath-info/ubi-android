@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.PostAdFirstStepActivity">
+
+    <include layout="@layout/top_back_lay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <com.ubi.android.utils.ui.PoppinsBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review_your_details"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/edittextpostbg"
+            android:orientation="horizontal"
+            android:padding="13dp">
+
+            <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                android:id="@+id/nametv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:maxLength="64"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textColorHint="#707070"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/edittextpostbg"
+            android:orientation="horizontal"
+            android:padding="13dp">
+
+            <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                android:id="@+id/emailtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:gravity="top"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLength="64"
+                android:maxLines="4"
+                android:textColor="@color/black"
+                android:textColorHint="#707070"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/edittextpostbg"
+            android:orientation="horizontal"
+            android:padding="13dp">
+
+            <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:gravity="top"
+                android:hint="@string/mobile"
+                android:inputType="number"
+                android:maxLength="13"
+                android:maxLines="4"
+                android:textColor="@color/black"
+                android:textColorHint="#707070"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/edittextpostbg"
+            android:orientation="horizontal"
+            android:padding="13dp">
+
+            <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                android:id="@+id/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:gravity="top"
+                android:hint="@string/company"
+                android:inputType="textPersonName"
+                android:maxLength="128"
+                android:maxLines="4"
+                android:textColor="@color/black"
+                android:textColorHint="#707070"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:id="@+id/applybtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/applybtn"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/next"
+                android:textColor="@color/white"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

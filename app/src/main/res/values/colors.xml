@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="appcolor">#4A1DA7</color>
+    <color name="appcolor_50">#A63E434E</color>
+    <color name="appcolor_30">#4D3E434E</color>
+    <color name="colorPrimary">#5696D7</color>
+    <color name="colorPrimaryDark">#FF5722</color>
+    <color name="colorAccent">#fff</color>
+    <color name="white">#ffffff</color>
+    <color name="white_50">#A6ffffff</color>
+    <color name="white_80">#CCffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_50">#A6000000</color>
+    <color name="black_40">#59000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="textcolor">#1C1A1A</color>
+    <color name="light_grey">#80d3d3d3</color>
+    <color name="otpboxcolor">#EEECEE</color>
+    <color name="light_grey_50">#40d3d3d3</color>
+    <color name="red">#FF0000</color>
+    <color name="vividred">#B22222</color>
+    <color name="green">#008000</color>
+    <color name="subtitle">#4A4D54</color>
+    <color name="linecolor">#B1CDFF</color>
+    <color name="loginbtn">#56BED7</color>
+    <color name="profile_small_text">#939191</color>
+    <color name="pickupcolor">#56D7BC</color>
+    <color name="dark_grey">#1a1c1f</color>
+    <color name="slateGrey">#535966</color>
+    <color name="errortextcolor">#FF5D73</color>
+    <color name="charcoalGrey">#3e434e</color>
+    <color name="green_color">#12b07e</color>
+    <color name="registertext">#6E00ED</color>
+    <color name="startcolor">#4A1DA7</color>
+    <color name="endcolor">#5087DB</color>
+    <color name="nameheadercolor">#202020</color>
+    <color name="subtextheader">#99202020</color>
+    <color name="headertextcolor">#0C1A30</color>
+    <color name="viewall">#0B0B45</color>
+
+    <color name="cat1start">#F7372D</color>
+    <color name="cat1end">#F37A72</color>
+    <color name="cat2start">#48A6F1</color>
+    <color name="cat2end">#73D3FF</color>
+    <color name="cat3start">#EF880B</color>
+    <color name="cat3end">#FEB816</color>
+    <color name="cat4start">#A846F9</color>
+    <color name="cat4end">#D07BFE</color>
+    <color name="cat5start">#EB317F</color>
+    <color name="cat5end">#F559AD</color>
+    <color name="textcolor3">#464646</color>
+    <color name="shoppingbg1">#FEE4B2</color>
+    <color name="shoppingbg2">#BAE5EB</color>
+    <color name="shoppingbg3">#DAEACF</color>
+    <color name="shoppingbg4">#B2FBFE</color>
+
+    <color name="color_white">#ffffff</color>
+    <color name="white40">#ffffff</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_video_transparent">#88000000</color>
+    <color name="color_black">#000000</color>
+    <color name="filtertxt">#434343</color>
+    <color name="color_unplayed">#323232</color>
+    <color name="color_buffered">#b2b2b2</color>
+
+    <color name="packagecolor1">#D2FFE2</color>
+    <color name="packagecolor2">#DCE8FF</color>
+    <color name="packagecolor3">#FFC2F7</color>
+
 </resources>

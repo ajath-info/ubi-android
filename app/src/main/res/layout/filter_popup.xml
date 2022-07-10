@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/check_in"
+        android:textColor="#434343"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+
+            <com.ubi.android.utils.ui.PoppinsSemiBoldTextView
+                android:id="@+id/startdatetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 th DEC"
+                android:textColor="#434343"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+
+            <com.ubi.android.utils.ui.PoppinsSemiBoldTextView
+                android:id="@+id/enddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17 th DEC"
+                android:textColor="#434343"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--    <com.ubi.android.utils.ui.PoppinsRegularTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:text="SORT BY"-->
+    <!--        android:textColor="#434343"-->
+    <!--        android:textSize="13dp" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1">-->
+
+    <!--            <com.ubi.android.utils.ui.PoppinsRegularTextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/filtersortbg"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingTop="10dp"-->
+    <!--                android:paddingEnd="15dp"-->
+    <!--                android:paddingBottom="10dp"-->
+    <!--                android:text="Relevance"-->
+    <!--                android:textColor="#434343"-->
+    <!--                android:textSize="13dp" />-->
+    <!--        </RelativeLayout>-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1">-->
+
+    <!--            <com.ubi.android.utils.ui.PoppinsRegularTextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_centerInParent="true"-->
+    <!--                android:background="@drawable/filtersortbg"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingTop="10dp"-->
+    <!--                android:paddingEnd="15dp"-->
+    <!--                android:paddingBottom="10dp"-->
+    <!--                android:text="Rating"-->
+    <!--                android:textColor="#434343"-->
+    <!--                android:textSize="13dp" />-->
+    <!--        </RelativeLayout>-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1">-->
+
+    <!--            <com.ubi.android.utils.ui.PoppinsRegularTextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/filtersortbg"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingTop="10dp"-->
+    <!--                android:paddingEnd="15dp"-->
+    <!--                android:paddingBottom="10dp"-->
+    <!--                android:text="Popular"-->
+    <!--                android:textColor="#434343"-->
+    <!--                android:textSize="13dp" />-->
+    <!--        </RelativeLayout>-->
+    <!--    </LinearLayout>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1">-->
+
+    <!--            <com.ubi.android.utils.ui.PoppinsRegularTextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/filtersortbg"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingTop="10dp"-->
+    <!--                android:paddingEnd="15dp"-->
+    <!--                android:paddingBottom="10dp"-->
+    <!--                android:text="Friends Rat"-->
+    <!--                android:textColor="#434343"-->
+    <!--                android:textSize="13dp" />-->
+    <!--        </RelativeLayout>-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1">-->
+
+    <!--            <com.ubi.android.utils.ui.PoppinsRegularTextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/filtersortbg"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingTop="10dp"-->
+    <!--                android:paddingEnd="15dp"-->
+    <!--                android:paddingBottom="10dp"-->
+    <!--                android:text="Distance"-->
+    <!--                android:textColor="#434343"-->
+    <!--                android:textSize="13dp" />-->
+    <!--        </RelativeLayout>-->
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1">-->
+
+    <!--            <com.ubi.android.utils.ui.PoppinsRegularTextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/filtersortbg"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingTop="10dp"-->
+    <!--                android:paddingEnd="15dp"-->
+    <!--                android:paddingBottom="10dp"-->
+    <!--                android:text="Price"-->
+    <!--                android:textColor="#434343"-->
+    <!--                android:textSize="13dp" />-->
+    <!--        </RelativeLayout>-->
+    <!--    </LinearLayout>-->
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="STAR RATING"
+        android:textColor="#434343"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:id="@+id/fivetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/filtersortbg"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/_5_star"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:id="@+id/fourtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/filtersortbg"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/_4_star"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:id="@+id/threetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/filtersortbg"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/_3_star"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:id="@+id/twotxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/filtersortbg"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/_2_star"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:id="@+id/onetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/filtersortbg"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/_1_star"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/budget"
+        android:textColor="#434343"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:id="@+id/budgetone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/filtersortbg"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/_1_to_500"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content">
+
+            <com.ubi.android.utils.ui.PoppinsRegularTextView
+                android:id="@+id/budgettwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/filtersortbg"
+                android:paddingStart="15dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/_501_to_1000"
+                android:textColor="#434343"
+                android:textSize="13dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.ubi.android.utils.ui.PoppinsRegularTextView
+            android:id="@+id/applybtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/applybtn"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/apply"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+    </LinearLayout>
+</LinearLayout>

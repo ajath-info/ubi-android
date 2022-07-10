@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--    android:outlineAmbientShadowColor="#48A6F1"-->
+    <!--    android:outlineSpotShadowColor="#48A6F1"-->
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/cardview"-->
+    <!--        android:layout_width="70dp"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_margin="5dp"-->
+    <!--        android:ambientShadowAlpha="0.5"-->
+    <!--        android:spotShadowAlpha="0.5"-->
+    <!--        app:cardCornerRadius="13dp"-->
+    <!--        app:cardElevation="5dp"-->
+    <!--        app:cardUseCompatPadding="true">-->
+
+    <LinearLayout
+        android:id="@+id/mainlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/blank" />
+
+    </LinearLayout>
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <com.ubi.android.utils.ui.PoppinsRegularTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:textColor="#202020"
+        android:textSize="11dp" />
+</LinearLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity">
+
+    <include layout="@layout/backlayout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.ubi.android.utils.ui.PoppinsBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbtnbg"
+                android:orientation="horizontal"
+                android:padding="13dp">
+
+                <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                    android:id="@+id/firstnametv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="@string/first_name"
+                    android:inputType="textPersonName"
+                    android:maxLength="32"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="#707070"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/emailicon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbtnbg"
+                android:orientation="horizontal"
+                android:padding="13dp">
+
+                <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                    android:id="@+id/lastnametv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="@string/last_name"
+                    android:inputType="textPersonName"
+                    android:maxLength="32"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="#707070"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/emailicon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbtnbg"
+                android:orientation="horizontal"
+                android:padding="13dp">
+
+                <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                    android:id="@+id/mobiletv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="@string/phone"
+                    android:inputType="phone"
+                    android:maxLength="13"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="#707070"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phoneicon" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbtnbg"
+                android:orientation="horizontal"
+                android:padding="13dp">
+
+                <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                    android:id="@+id/emailtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="64"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="#707070"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/emailicon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbtnbg"
+                android:orientation="horizontal"
+                android:padding="13dp">
+
+                <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                    android:id="@+id/citytv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="@string/city"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="128"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="#707070"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:visibility="gone"
+                    android:layout_height="25dp"
+                    android:src="@drawable/emailicon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbtnbg"
+                android:orientation="horizontal"
+                android:padding="13dp">
+
+                <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                    android:id="@+id/passwordtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textColorHint="#707070"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/password" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextbtnbg"
+                android:orientation="horizontal"
+                android:padding="13dp">
+
+                <com.ubi.android.utils.ui.PoppinsMediumEditTextView
+                    android:id="@+id/confirmpasswordtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textColorHint="#707070"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/password" />
+            </LinearLayout>
+
+            <com.ubi.android.utils.ui.PoppinsMediumButton
+                android:id="@+id/submitbtntv"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/logintabbtnbg"
+                android:text="@string/register"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
